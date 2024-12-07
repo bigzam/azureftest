@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureFunctionsJobHost:Extensions:queues:batchSize": "6",
+    "AzureFunctionsJobHost:Extensions:queues:maxDequeueCount": "2",
+    "AzureFunctionsJobHost:Extensions:queues:newBatchThreshold": "3",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "ExpiredClaimEventQueueName": "expiredclaims",
+    "ExpiredClaimEventQueueConnection": ""
+  }
+}
